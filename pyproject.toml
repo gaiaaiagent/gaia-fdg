@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "eliza-fdg"
+version = "0.1.0"
+description = "Tool for analyzing ElizaOS database as a force directed graph."
+authors = ["Shawn Anderson <shawn@longtailfinancial.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
